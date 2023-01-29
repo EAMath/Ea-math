@@ -1,0 +1,25 @@
+<%- include("partials/header") -%>
+
+    <div class="Headbox" id="heading">
+      <h1 id="Title"> <%=title%> </h1>
+    </div>
+
+
+    <div id="ResultBox" class="ResultBox">
+      <h1 id="Result"> Sonuç </h1>
+      <img class="img" src="Images/<%=cpimg%>" alt="">
+      <h1 id="First"><%=first%></h1>
+      <h1 id="Second"><%=second%></h1>
+      <h1 id="Third"><%=third%></h1>
+
+    </div>
+
+    <div class="box">
+
+      <div class="item">
+        <input type="number" id="MyNumA" name="" value="" placeholder="<%=ph1%>">
+      </div>
+
+      <button type="button" class="button <%=btncls%>">Hesapla</button>
+
+<%- include("partials/footer") -%>
